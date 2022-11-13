@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+  <div class="mapa">
+   <img src="Obrázky/obr.jpg" width="100%" />
+   <div class="ikony">
+       <div>
+         <a href="#nemocnica"><img src="Obrázky/Ikona2.png" style="margin: 9% 0 0 6%;;width:1.5%;"></a>
+         <a href="#divadlo"><img src="Obrázky/Ikona2.png" style="margin: 1% 0 0 55%;;width:1.5%;"></a>
+         <a href="#susch"><img src="Obrázky/Ikona2.png" style="margin: -2% 0 0 75%;;width:1.5%;"></a>
+         <a href="#galeria"><img src="Obrázky/Ikona2.png" style="margin: 5.5% 0 0 62%;;width:1.5%;"></a>
+         <a href="#slovenka"><img src="Obrázky/Ikona2.png" style="margin: 1% 0 0 43.5%;;width:1.5%;"></a>
+         <a href="#kupalisko"><img src="Obrázky/Ikona2.png" style="margin: 3% 0 0 21%;;width:1.5%;"></a>
+         <a href="#namestie"><img src="Obrázky/Ikona2.png" style="margin: -1% 0 0 49.5%;;width:1.5%;"></a>
+         <a href="#muzeum"><img src="Obrázky/Ikona2.png" style="margin: -2% 0 0 57.5%;;width:1.5%;"></a>
+         <a href="#stanica"><img src="Obrázky/Ikona2.png" style="margin: -3% 0 0 78.5%;;width:1.5%;"></a>
+         <a href="#hokej"><img src="Obrázky/Ikona2.png" style="margin: 1.5% 0 0 65.5%;;width:1.5%;"></a>
+         <a href="#futbal"><img src="Obrázky/Ikona2.png"style="margin: 3% 0 0 26.5%;;width:1.5%;"/></a>
+         <a href="#europa"><img src="Obrázky/Ikona2.png" style="margin: 2% 0 0 35%;;width:1.5%;"></a>
+         <a href="#urpin"><img src="Obrázky/Ikona2.png" style="margin: 0.5% 0 0 48%;;width:1.5%;"></a>
+       </div>
+
+
+<!--malé popup okná s krížikom a tlačidlom odkazujúcim na modal okno!-->
+
+
+<div class="popup" id="futbal">
+  <h2>Futbalový štadión Štiavničky</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Štadión SNP je atletický a futbalový štadión,na ktorom hráva svoje domáce zápasy MFK Dukla Banská Bystrica.Bol otvorený 22.augusta 1959.Podľa svojej lokality sa štadión nazýva aj Štiavničky.Štadión prešiel rozsiahlou rekonštrukciou.<p>
+    <button href="#futbalModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="divadlo">
+  <h2>Divadlo Štúdio tanca</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Divadlo Štúdio tanca pôsobí od roku 1998 v Banskej Bystrici. Za 22 rokov pôsobenia uvidelo viac ako 1400 predstavení. Je držitelom Ceny primátora mesta Banská Bystrica a Ceny Ministra kultúry SR.</p>
+      <button href="#divadloModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="nemocnica">
+  <h2>Fakultná Nemocnica F.D.Roosvelta</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Fakultná nemocnica je koncová nemocnica sídliaca v Banskej Bystrici.Je základňa pre Fakultu zdravotníctva SZU.V tomto roku Roosveltova nemocnica vyhrala ocenenie najlepšej nemocnice na Slovensku.</p>
+      <button href="#nemocnicaModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="kupalisko">
+    <h2>Plážové Kúpalisko Aqualand</h2>
+      <a class="closep" href="">&times;</a>
+      <p>Aqualand Banská Bystrica je plážové kúpalisko v Banskej Bystrici.Nachádza sa v oddychovej časti centra mesta.Ponúka vodné plochy na kúpanie a zábavu,vodný zábavný park s trampolínami či ihriská na volejbal, futbal, bowling. <p>
+        <button href="#kupaliskoModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="susch">
+  <h2>Stredoslovenský ústav srdcových a cievnych chorôb</h2>
+      <a class="closep" href="">&times;</a>
+      <p>Stredoslovenský ústav srdcových a cievnych chorôb je jednou z troch špecializovaných nemocníc.Poskytuje komplexnú starostlivosť o pacientov s kardiovaskulárnymi chorobami.Ústav je akreditovanou základňoiuo pre Fakultu zdravotníctva SZU.</p>
+        <button href="#suschModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="namestie">
+  <h2>Námestie SNP</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Námestie SNP je centálne námestie v Banskej Bystrici.Námestie bolo utvorené začiatkom 16.storočia.Na námestí sa nachádza viacero hodnotných budov a domov.Taktiež tu stojí Mariánsky stĺp,fontána a obelisk na pamiatku vojakom Rumunskej a Červenej armády.</p>
+      <button href="#namestieModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="slovenka">
+  <h2>Areál Slovenky</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Areál bývalej Slovenky sa nachádza v centre mesta.V minulosti slúžil ako textilný závod firmy Slovenka.Na tejto ploche s viac ako 4 hektármi má po viacerých etapách vzniknúť nová mestská štvrť Slovenka2.Budú tu priestory na prácu,bývanie ale aj nákupy a zábavu.</p>
+      <button href="#slovenkaModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="galeria">
+  <h2>Stredoslovenská galéria</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Stredoslovenská galéria je regionálnou galériou so zameraním na zbierku moderného a súčasného umenia. Súčasťou galérie je aj stála expozícia Dominika Skuteckého. Založená bola v roku 1956.</p>
+      <button href="#galeriaModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="muzeum">
+  <h2>Múzeum SNP</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Múzeum Slovenského národného povstania je celoštátne múzeum pod záštitou Ministerstva kultúry.Vzniklo 8.mája 1955.Riaditeľom od roku 2006 až do tohto roku bol Stanislav Mičev.Autormi stavby sú Dušan Kuzma,Milan Kodoň a Emanuel Hruška.</p>
+      <button href="#muzeumModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="stanica">
+  <h2>Železničná stanica</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Železničná stanica Banská Bystrica je hlavnou železničnou stanicou v meste. Stretávajú sa tu dve trate: Zvolen-Vrútky a Banská Bystrica-Červená Skala.Pôvodná stanica bola postavená v roku 1874 na trati zo Zvolena.</p>
+      <button href="#stanicaModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="hokej">
+  <h2>Hokejový štadión</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Zimný hokejový štadión je domovským štadiónou HC 05 Banská Bystrica,ktorý má štadión v prenájme od mesta.Otvorený bol v decembri 1956.Štadión prešiel tohto roku rozsiahlou rekonštrukciou.</p>
+      <button href="#hokejModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="europa">
+  <h2>Europa Shopping Center</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Europa Shopping Center je nákupno-zábavné centrum v lokalite Trosky v Banskej Bystrici.Základný kameň bol položený v máji 2005.Celková plocha je 37 500m<sup>2</sup>.Spolu s Europa Bussiness Center vyhrali súťaž Stavba roka 2009. </p>
+      <button href="#europaModal" class="modal-button">Viac info...</button>
+</div>
+
+<div class="popup" id="urpin">
+  <h2>Vrch Urpín</h2>
+    <a class="closep" href="">&times;</a>
+    <p>Urpín je vrch s nadmorskou výškou 510 m n.m.,ktorý sa nachádza v Slovenskom stredohorí v celku Zvolenská kotlina.Patrí do katastrálneho územia mesta Banská Bystrica.Na východnej strane kopca je banskobystrická Kalvária.</p>
+      <button href="#urpinModal" class="modal-button">Viac info...</button>
+</div>
+
+
+<!--modal okná s krížikom !-->
+
+
+  <div id="futbalModal" class="modal">
+    <div class="modal-content" id="futbalM">
+    <span class="close">&times;</span>
+          <h1 style="text-align:center;">Štadión SNP</h1>
+             <img style="max-width: 100%;" src="https://www.bystricoviny.sk/wp-content/uploads/2021/07/stadion-snp-stiavnicky-novy-vizualizacia-1-1536x864.jpg">
+             <p>Štadión SNP je atletický a futbalový štadión nachádzajúci sa v Banskej Bystrici na Štiavničkách. Svoje domáce zápasy tu hrá aj MFK Dukla Banská Bystrica. Nachádza sa na okraji sídliska Fončorda blízko kúpaliska, bazénu a športovej haly.</p><p>Štadión je vo vlastníctve Ministerstva obrany Slovenskej republiky, spravuje ho Vojenské športové centrum DUKLA Banská Bystrica.</p><p>Zrekonštruovaný štadión bol otvorený 5. októbra 2021. Nový štadión obsahuje viac ako 7 000 sedačiek (miesto plánovaných 4000), vrátane 30 miest pre imobilné osoby. Rekonštrukcia stála celkovo 14 106 287,60 eur.</p>
+             <ul style="list-style-type:none;">
+               <li>Adresa: <strong>Hutná 3,Banská Bystrica</strong></li>
+               <li>Kapacita: <strong>7900 miest</strong></li>
+               <li>Dátum otvorenia: <strong>1959</strong></li>
+               <li>Rozmery: <strong>105m x 68m</strong></li>
+      </div>
+    </div>
+
+    <div id="nemocnicaModal" class="modal">
+      <div class="modal-content" id="#nemocnicaM">
+      <span class="close">&times;</span>
+          <h1 style="text-align:center;">Fakultná nemocnica F.D.Roosvelta</h1>
+          <p>Fakultná nemocnica s poliklinikou F. D. Roosevelta Banská Bystrica je v súčasnosti štátnou príspevkovou organizáciou a subjektom verejnej správy, so sídlom na ulici Nám. L. Svobodu 1, PSČ 975 17, IČO: 00165549.</p>
+          <p>K 31. decembru 2017 nemocnica disponovala s 901 lôžokami a 15 lôžokami na dennom psychiatrickom stacionári LÚČ. Za rok 2017 prepustila 39 875 pacientov ukončením hospitalizácie. V ambulantnej časti došlo k 478 092 návštevám. Priemerný počet zamestnancov k 31. decembru 2017 dosahoval 2 248.[1] Počas roku 2017 v nemocnici vykonalo stáž 565 študentov, z toho 92 z lekárskych fakúlt a 473 z nelekárskych. Domovské inštitúcie študentov sú zo Slovenska aj z Česka.</p>
+          <p>V hodnotení Inštitútu pre ekonomické a sociálne reformy INEKO bola po švrtý rok v rade ocenená titulom Nemocnica roka banskobystrická Fakultná nemocnica s poliklinikou F. D. Roosevelta v Banskej Bystrici.</p>
+          <table>
+             <tr><th colspan="2">Vedenie nemocnice</th></tr>
+             <tr><td>Ing.Miriam Lapuníková</td><td>Riaditeľka nemocnice</td></tr>
+             <tr><td>Ing. Ivana Sklenková</td><td>Prevádzková námestníčka</td></tr>
+             <tr><td>Doc. MUDr. Igor Martuliak, PhD</td><td>Vedúci oddelenia pre vedu,výskum</td></tr>
+          </table>
+      </div>
+    </div>
+
+    <div id="divadloModal" class="modal">
+       <div class="modal-content">
+       <span class="close">&times;</span>
+            <h1 style="text-align:center;">Divadlo Štúdio tanca</h1>
+            <p>Divadlo Štúdio tanca pôsobí od roku 1998 v Banskej Bystrici. Jedinečné vo svojom umeleckom zameraní razí cestu autorskej tvorby, ktorá rešpektuje umelcov v ich tvorivom vyjadrení a názore a kontinuálne podporuje vznik pôvodných tanečných inscenácií a ich pravidelné uvádzanie.</p>
+            <center> <img src="https://www.studiotanca.sk/app/uploads/2020/03/MG_5118-scaled.jpg" width="50%" ></center>
+            <p>Divadlo Štúdio tanca produkcie pravidelne uvádza na viacerých domácich scénach a Slovensko reprezentovalo na prestížnych medzinárodných festivaloch v Česku, Poľsku, Maďarsku, Bosne a Hercegovine, Rusku, Nemecku, Taliansku, Belgicku, Francúzsku, Švajčiarsku, Egypte, Japonsku, Indii, Paname a Dominikánskej republike. Charakteristické umelecké atribúty mu priniesli množstvo ocenení, o.i. je držiteľom Ceny primátora Mesta B. Bystrica a Ceny Ministra kultúry SR.</p>
+            <a href="https://www.studiotanca.sk/"><center>Oficiálna stránka Divadla</center></a>
+      </div>
+    </div>
+
+    <div id="suschModal" class="modal">
+      <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1 style="text-align:center;">Stredoslovenský ústav srdcových a cievnych chorôb</h1>
+              <p>Stredoslovenský ústav srdcových a cievnych chorôb, a.s. (SÚSCCH) je jednou z troch špecializovaných nemocníc, ktorá poskytuje komplexnú starostlivosť o pacientov s kardiovaskulárnymi chorobami. Jeho poslaním je poskytovanie komplexnej ambulantnej a ústavnej starostlivosti o dospelých pacientov s chorobami srdca a veľkých ciev. Poskytuje špecializovanú starostlivosť o pacientov v odbore kardiológia, kardiochirurgia, anestéziológia a intenzívna medicína, angiológia a funkčná diagnostika. Ústav má právnu podobu akciovej spoločnosti, jediným vlastníkom akcií je štát.</p>
+              <p>Ústav je vybavený modernou zdravotníckou technikou. Všetky priestory sú zariadené tak, aby pacientom poskytovali dostatočný komfort a intimitu pri všetkých výkonoch medicínskej a ošetrovateľskej starostlivosti. Dostavaním nového sídla ústavu sa vytvorili možnosti pre ďalší rast ústavu.</p>
+              <p style="text-align:center;">Adresa:<strong>Cesta k nemocnici 1, Banská Bystrica</strong></p>
+              <p >PARTNERI:</p>
+              <div>
+                <img style="display:inline;" src="https://old.suscch.eu/e107_themes/bluesummer/images/p_logo_02.png">
+                <img style="display:inline;" src="https://old.suscch.eu/e107_themes/bluesummer/images/p_logo_03.png">
+                <img style="display:inline;" src="https://old.suscch.eu/e107_themes/bluesummer/images/p_logo_06.png">
+              </div>
+      </div>
+    </div>
+
+      <div id="galeriaModal" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+              <h1 style="text-align:center;">Stredoslovenská galéria</h1>
+               <p>Stredoslovenská galéria sídli v centre Banskej Bystrice a je regionálnou galériou s programovým zameraním na prezentáciu, výskum a tvorbu zbierky moderného a súčasného umenia. Galéria sa profiluje ako otvorená inštitúcia. Popri odbornej činnosti zbierkotvornej galérie ponúka širokej verejnosti odborné kurátorské a edukačné projekty s rozšíreným sprievodným programom o iné umelecké druhy, ako sú súčasná literatúra, tanec, hudba, performancia či film.</p>
+               <p> Z významných umelcov pôsobiacich v stredoslovenskej oblasti od sledovaného 19. storočia je najvýraznejšiu osobnosťou maliar Dominik Skutecký, ktorý sa tu usadil po dlhoročnom pôsobení vo Viedni a Benátkach. Jeho maliarska tvorba a vývin vyniká ovládaním kvalít tradičnej talianskej maľby a v neskoršom období špecifickým riešením svetelnej problematiky luministickej (impresionistickej) maľby prelomu 19. a 20. storočia. V rámci reflexie umenia vo verejnom priestore galéria spracováva výtvarné diela na území Banskej Bystrice vytvorené v období rokov 1945 – 2015.</p>
+              <table>
+                    <tr><th colspan="2">Názvy Galérie</th></tr>
+                    <tr><td>1956-1960</td><td>Krajská galéria</td></tr>
+                    <tr><td>1960-1963</td><td>Mestská galéria</td></tr>
+                    <tr><td>1963-1991</td><td>Oblastná galéria</td></tr>
+                    <tr><td>1991-1998</td><td>Štátna galéria v Banskej Bystrici</td></tr>
+                    <tr><td>1998-1999</td><td>Banskobystrické štátne kultúrne centrum</td></tr>
+                    <tr><td>1999-2007</td><td>Štátna galéria v Banskej Bystrici</td></tr>
+                    <tr><td>2007-</td><td>Stredoslovenská galéria</td></tr>
+                </table>
+          </div>
+      </div>
+
+      <div id="muzeumModal" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+                <h1 style="text-align:center;">Múzeum SNP</h1>
+                <p>Pamätník SNP v Banskej Bystrici je jeden z najvýznamnejších pamätníkov na Slovensku, ktorých úlohou je pripomínať obdobie II. svetovej vojny a Slovenské národné povstanie, centrom ktorého bola Banská Bystrica. Je dielom architekta Dušana Kuzmu. Pamätník bol dokončený v roku 1969.</p>
+                <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pamatnik_SNP_BB.JPG/1280px-Pamatnik_SNP_BB.JPG" width="50%"></center>
+                 <p>Múzeum SNP bolo založené 8. mája 1955. Týmto sa pridal k pôsobeniu Ústavu Slovenského národného povstania, ktorý tu vznikol už v decembri 1947. V súčasnosti sa v objekte nachádza múzeum a archív vývoja slovenskej spoločnosti v období rokov 1918 – 1948 so zameraním na protifašistický odboj a Slovenské národné povstanie. Inštitúcia má celoslovenskú až medzinárodnú pôsobnosť a vykonáva odborno-metodickú, poradenskú a koordinačnú činnosť. Múzeum má k dispozícií 66 956 kusov múzejných zbierok a 136 157 kusov archívnych zbierok. Súčasťou je archív zo zameraním na múzejnú činnosť a obdobie rokov 1938 – 1945. Nachádza sa tu aj knižnica s 20 000 knižnými jednotkami.</p>
+                <p>Samotná stavba sa nachádza na východ smerom od centra mesta Banská Bystrica. Je situovaná na zlome terénu v blízkosti opevnenia mesta. Nastáva tu spojenie starej a novej časti mesta, historickej časti s novodobou.Umiestnenie bolo navrhnuté v roku 1957 víťazmi urbanistickej súťaže v Banskej Bystrici, ktorými boli Milan Kodoň a Emanuel Hruška. Návrh samotnej budovy pamätníka sa však rodil oveľa dlhšie. Na jej návrhu pracoval architekt Dušan Kuzma od roku 1959, kedy vyhral architektonickú súťaž. Tento architekt bol zároveň aj pedagóg na VŠVU, kde sa dostal aj k myšlienke vytvoriť dielo, ktoré by bolo spojením architektúry a umenia. Svojho spojenca našiel v umelcovi Jozefovi Jankovičovi.</p>
+        	</div>
+      </div>
+
+      <div id="namestieModal" class="modal">
+          <div class="modal-content">
+          <span class="close">&times;</span>
+                  <h1 style="text-align:center;">Námestie SNP</h1>
+                   <p>Námestie bolo utvorené začiatkom v 16. storočia.V roku 1526 bolo námestie centrom baníckeho povstania.V roku 1937 sa námestie volalo Masarykovo.30. októbra 1944 na námestí vyznamenal vtedajší prezident Jozef Tiso nemeckých vojakov, ktorí sa zúčastnili na potlačení Slovenského národného povstania.Pri tejto príležitosti uskutočnil aj prejav.Námestie bolo zrekonštruované v roku 1994. Pribudli nové osvetlenie a dlaždice. Námestie sa tiež stalo pešou zónou.Na prelome rokov 2012 a 2013 sa pripravovala ďalšia rekonštrukcia námestia.</p>
+                  <p>Niekde v strede námestia je zaujímavá kamenná fontána s bohatou históriou a pod ňou Čierny obelisk, pripomínajúci nám nie tak dávne časy. Obelisk postavili Banskobystričania ako pamiatku na osloboditeľov počas ii. svetovej vojny - Červenú a Rumunskú armádu.</p>
+                  <p>Hodinová veža - je najznámejšou a najviditeľnejšou dominantou Námestia SNP. Hovorí sa jej aj šikmá veža. Koncom 19.st. došlo k narušeniu statiky veže a v roku 1920 sa odkláňala od zvislej osi o 68 cm.</p>
+                  <center><img src="https://foto.turistika.cz/foto/r/900/61582/136638/a-483-.jpg" width="50%"></center>
+                  <p>Pred Hodinovou vežou stojí barokový Mariánsky stĺp z roku 1719. Na vrchole stĺpa je umiestnená sochy Panny Márie. Morový stĺp bol postavený z vďaky za zažehnanie hrôzostrašnej morovej epidémie, pri ktorej zomrela v roku 1719 polovica obyvateľstva mesta.</p>
+          </div>
+      </div>
+
+    <div id="hokejModal" class="modal">
+       <div class="modal-content">
+       <span class="close">&times;</span>
+              <h1 style="text-align:center;">Zimný štadión</h1>
+              <p>Zimný štadión Banská Bystrica je zimný štadión v meste Banská Bystrica. Štadión má kapacitu 2 950 miest. Otvorený bol v noci z 24. decembra na 25. decembra 1956, zastrešený v roku 1966.Je domovským stánkom hokejového klubu HC ’05 Banská Bystrica, ktorý má štadión v prenájme od mesta Banská Bystrica. V roku 2009 prebehla rekonštrukcia južnej tribúny, ktorá bola v havarijnom stave. V decembri 2013 vyčlenila vláda zo štátnej rezervy milión eur na rekonštrukciu severnej tribúny. Podmienkou pre rekonštrukciu bolo finančné zapojenie samosprávy a mesto sa zaviazalo, že najmenej 10 rokov od dokončenia rekonštrukcie nezmení vlastnícke ani iné právo k pozemku ani stavbe a štadión bude využívať v súlade so zmluvou so Slovenským zväzom ľadového hokeja. Zároveň musí poskytnúť štadión pre účely reprezentácie.</p>
+              <p><center>Momentálne na štadióne prebieha rozsiahla rekonštrukcia.</center></p>
+              <center><img src="https://regiony.zoznam.sk/wp-content/uploads/2021/10/hala-zimny-stadion-banska-bystrica-1170x780.jpeg" width="50%"></center>
+              <p>Obnova štadióna za 5,5 milióna eur sa začala vlani v decembri, pričom ju realizuje bratislavská firma INGSTEEL, spol. s r.o., ktorá vyhrala verejné obstarávanie. Práce sa v súčasnosti zameriavajú na finalizáciu zateplenia fasád, montáže obkladov a dlažieb, schodísk i zábradlí na novej západnej tribúne.</p>
+        </div>
+    </div>
+
+    <div id="stanicaModal" class="modal">
+      <div class="modal-content">
+      <span class="close">&times;</span>
+            <h1 style="text-align:center;">Železničná stanica</h1>
+            <p>Železničná stanica Banská Bystrica je hlavná železničná stanica v Banskej Bystrici.</p>
+            <center><img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bansk%C3%A1_Bystrica%2C_Slovakia_-_main_railway_station.jpg/1280px-Bansk%C3%A1_Bystrica%2C_Slovakia_-_main_railway_station.jpg"></center>
+            <p>Autorom železničnej stanice Banská Bystrica je architekt Ján Štefanec (1903 – 1989). Patril k významným slovenským architektom, ktorí tvorili v intenciách funkcionalizmu. Študoval na Českom vysokom učení technickom v Prahe, pôsobil v Bratislave a Poděbradoch. Počas bratislavského pôsobenia bol zamestnaný v ateliéri architekta Emila Belluša, tiež na technickom odbore mesta Bratislava, neskôr pôsobil ako riadny profesor pozemného staviteľstva na Fakulte architektúry a pozemného staviteľstva Slovenskej vysokej školy technickej v Bratislave.</p>
+            <p>Architektúra železničnej stanice je prezentovaná najmä vysokou hmotou odbavovacej haly s plochami hlavných fasád orientovaných k mestu a tiež ku koľajisku. Fasády sú členené vysokými oknami, ktoré sú oddelené piliermi (celkovo osem polí). V súčasnosti sú okenné otvory osadené umeleckými vitrážami s témou dejinných udalostí stredoslovenských miest.</p>
+            <p>Vstupy pre cestujúcich sú po obidvoch stranách odbavovacej haly. Medzi hlavnými vchodmi sú umiestnené priestory pre malé prevádzky s doplnkovými službami. V odbavovacej hale sú umiestnené najmä pokladne pre cestujúcich. Hala je priamo prepojená s prvým nástupišťom. Spojenie s ďalšími nástupišťami je mimoúrovňové (nie však bezbariérové). Všetky tri nástupištia sú prekryté pomocou oceľovej nitovanej konštrukcie. V bočných krídlach železničnej stanice, ktoré nadväzujú na odbavovaciu halu sú situované potrebné železničné prevádzkové a administratívne priestory. Prvé poschodie obidvoch bočných krídiel slúžia ako priestory pre prevádzku železničnej stanice spolu s ubytovacími priestormi pre pracovníkov železnice.</p>
+        </div>
+    </div>
+
+    <div id="europaModal" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+                <h1 style="text-align:center;">Europa Shopping Center</h1>
+                <a href="https://www.europasc.sk/"><center>Oficiálna stránka obchodného centra</center></a><br>
+                <center><img width="50%" src="https://www.t-klima.sk/wp-content/uploads/2014/12/BB05-653x450.jpg"></center>
+                  <p>Od svojho otvorenia, v decembri 2006, je Europa Shopping Center najväčšie a najnavštevovanejšie nákupno-zábavné centrum v celom Banskobystrickom kraji.</p>
+                  <p>Europa Business Center je najvyššia budova v Banskej Bystrici. Má 22 nadzemných podlaží a výšku 87 metrov. Budova má rozlohu 8 400 m². Výstavba prebiehala v období júl 2006 až máj 2008. Europa Business Centre so spojeným Europa Shopping Centre vyhrali v roku 2009 súťaž Stavba roka.</p>
+                  <center><img width="90%" src="https://dam.nmhmedia.sk/image/7eea6bb6-9a24-44ca-a2b7-c41b4137b07a_dam-urlm77ru5.jpg/960/540"></center>
+      </div>
+  </div>
+
+    <div id="kupaliskoModal" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+              <h1 style="text-align:center;">Plážové kúpalisko Aqualand</h1>
+              <table>
+                  <tr><th colspan="2">Cenník</th></tr>
+                  <tr><td>Dospelí</td><td>6,50€</td></tr>
+                  <tr><td>Študenti</td><td>5,50€</td></tr>
+                  <tr><td>Deti do 14 rokov</td><td>4,50€</td></tr>
+                  <tr><td>Deti do 5 rokov</td><td>1,20€</td></tr>
+                  <tr><td>Deti do 2 rokov</td><td>Zadarmo</td></tr>
+                  <tr><td>Dôchodcovia</td><td>3,50€</td></tr>
+                  <tr><td>Držitelia ZŤP</td><td>3,90€</td></tr>
+              </table>
+              <p>Areál kúpaliska sa nachádza v oddychovej časti mesta Banská Bystrica, len 10 min. chôdze od centra.Areál je monitorovaný kamerovým systémom a zabezpečený vlastnou strážnou službou.Areál vďaka svojej rozlohe až 22,5 ha poskytuje rozľahlé plochy na slnenie, zábavu a športové vyžitie. Návštevníci majú k dispozícii 5 bazénov, športoviská, in line dráhu, dráhu na vodné lyžovanie a ďalšie atrakcie. Okrem bazénov je pre plavcov prístupné i prírodné jazero. Občerstvenie návštevníkov zabezpečujú bufety s rýchlym občerstvením.</p>
+                <h3><center>Služby</center></h3>
+                <ul>
+                  <li>5 nekrytých vonkajších bazénov z toho 3 napúšťané vodou z minerálneho prameňa</li>
+                  <li>Možnosť ubytovania v hoteli Dixon****, ktorý sa nachádza v bezprostrednej blízkosti areálu</li>
+                  <li>Jazero - možnosť plávania, zapožičania vodných bicyklov</li>
+                  <li>Športoviská - plážový futbal, plážový volejbal, plážový nohejbal, minigolf, stolný tenis</li>
+                  <li>Parkovisko, Bufety</li>
+                  <li>DETSKÝ ZÁBAVNÝ PARK, AQUA FUN PARK, WAKE PARK</li>
+                </ul>
+          </div>
+      </div>
+
+      <div id="urpinModal" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+              <h1 style="text-align:center;">Urpín</h1>
+              <center><img width="90%" src="http://1.bp.blogspot.com/-Q6YXcb8detE/VJmN1o8tWWI/AAAAAAAATGs/N0IcjMvtLCs/s1600/2.jpg"></center>
+              <p>Urpín (510 m n. m.) je vrch v Slovenskom stredohorí v celku Zvolenská kotlina. Urpín sa nachádza v katastrálnom území mesta Banská Bystrica. Z východnej strany susedí s časťou Uhlisko, zo severu s centrom mesta a zo západu s Radvaňou. Na východnej strane kopca je banskobystrická Kalvária zo 17. storočia.Úbočím Urpína tečie Hron a vedie železničná trať Zvolen – Vrútky. Na tejto trati je pod Urpínom zastávka Banská Bystrica-mesto, tzv. Malá stanica.</p>
+              <p>V jeseni 2014 bol otvorený náučný chodník s dĺžkou 3,6 km a štrnástimi informačnými tabuľami. Ďalšie etapy počítajú s vytvorením vyhliadky a úpravou a obnovou serpentín až na vrchol. Investovať by sa malo spolu 82 tisíc €.Náučný chodník vedie od malej stanice po serpentínach hore, okolo vrcholu Urpína, okolo Urpínskej lesostepi a po 13 zastaveniach končí na Uhlisku.</p>
+              <p>Urpín sa nachádza blízko centra a je viditeľný z mnohých častí mesta. Používa sa preto aj ako synonymum pre samotné mesto Banská Bystrica, „Mesto pod Urpínom“, alebo len „Pod Urpínom“, alebo podobné frázy sú používané v médiách. Vrch Urpín dal meno aj organizáciám, firmám či produktom z Mesta pod Urpínom: folklórny súbor Urpín, pivo Urpiner Banskobystrického pivovaru.</p>
+        </div>
+    </div>
+
+      <div id="slovenkaModal" class="modal">
+          <div class="modal-content">
+              <span class="close">&times;</span>
+                <h1 style="text-align:center;">Areál Slovenky</h1>
+                <p>Slovenka bola považovaná za druhý najlepší a najvýznamnejší podnik pletiarskeho priemyslu v rámci Československa. Okrem bielizne a pánskych športových košieľ sa tam vyrábali dámske vesty, spodná bielizeň či detské oblečenie. Postupne svoju ponuku rozširovali, pribúdali pracovné miesta a začalo sa aj s exportom do zahraničia, najmä do Sovietskeho zväzu a západoeurópskych krajín. Závod vo svojej najväčšej sláve zamestnával viac ako 5000 ľudí a Slovenka bola akýmsi symbolom mesta.</p>
+                <p>Slovenka vznikla už v roku 1921 v Martine. Po znárodnení sa však rozhodlo o strategickom umiestnení Stalinových závodov ťažkého strojárstva práve do tohto areálu. Banská Bystrica podala pomocnú ruku, a tak sa Slovenka presťahovala do mesta pod Urpínom. Nie len Bystričania, ale aj ľudia z okolitých dedín, v ňom od roku 1951 mohli nájsť prácu.</p>
+                 <center><img width="70%" src="https://www.archinfo.sk/image-handler/33528/8590248/gallery/box_48470/width_936/BB_Aerial_07.jpg"></center>
+                <p>Budovy, ale aj celý areál na Striebornom námestí dlhé roky chátrali. O lukratívne miesto takmer v centre Bystrice sa tak začali zaujímať investori. Majú v pláne vytvoriť tu nové kultúrno-spoločenské centrum, ktoré bude miestom dôležitých udalostí v živote Bystričanov.Projekt SLOVENKA 2 zahŕňa výstavbu komplexu bytov, kancelárií, obchodov, ale aj zelených komunitných záhrad a vnútroblokov. Potok Bystrica dostane takisto vynovené nábrežie. Doteraz nevyužívaný priestor sa tak opäť vráti do života.</p>
+          </div>
+    </div>
+
+
+<script>
+       //Načítanie modal okna(všetky modal okná s triedol modal)
+       var modals = document.querySelectorAll('.modal');
+
+       // NAčítanie tlačidiel
+       var btn = document.querySelectorAll("button.modal-button");
+
+       // Načítanie spanu/krížika pre zavretie okna
+       var spans = document.getElementsByClassName("close");
+
+       // Cyklus ktorý otvorí modal okno
+       for (var i = 0; i < btn.length; i++) {
+        btn[i].onclick = function(e) {
+           e.preventDefault();
+           modal = document.querySelector(e.target.getAttribute("href"));
+           modal.style.display = "block";
+        }
+       }
+
+       // Cyklus, ktorý po kliknutí na krížik(span) zavrie modal okno
+       for (var i = 0; i < spans.length; i++) {
+        spans[i].onclick = function() {
+           for (var index in modals) {
+             if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+           }
+        }
+       }
+
+       // Zatvorí sa(zmení stav display na none) modal okno po kliknutí mimo modal okna
+       window.onclick = function(event) {
+           if (event.target.classList.contains('modal')) {
+            for (var index in modals) {
+             if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+            }
+           }
+       }
+  </script>
+
+</body>
+</html>
